@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "poppins" , "sorif";
+}
+
+body{
+    background-color: #FFF9E6;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+.nav ul{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #333333;
+}
+
+nav a:hover{
+    color: #bbbb;
+}
+
+hr{
+    opacity: 35%;
+}
+.he{
+    background-color: #d3d3d3;
+}
+
+.Teach{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+}
+
+.Teachsub{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.name{
+    font-size: 3rem;
+    color:#333333
+}
+
+.title{
+    font-size: 4rem;
+    color: #fffb00f3;
+}
+
+.weth{
+    font-size: 2rem;
+    color: #333333;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.6rem 1.5rem; 
+    font-size: 1.3rem;
+    border-radius: 50px; 
+    border: none; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    
+    
+    background-color: #FFCB05; 
+    color: #333333; 
+    font-weight: bold;
+    
+    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  
+  .button:hover {
+    background-color: #FFB700; 
+    color: #000000; 
+  }
